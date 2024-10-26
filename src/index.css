@@ -10,6 +10,6 @@ body{
   background-color: black;
 }
 
-#tasklist::-webkit-scrollbar{
+#tasklist, #task::-webkit-scrollbar{
   display: none;
 }
