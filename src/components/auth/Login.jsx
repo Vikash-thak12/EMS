@@ -5,8 +5,7 @@ const LoginPage = () => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const handlesubmit = (e) => {
-        e.preventDefault();
-        // alert("You are logging")
+        e.preventDefault()
         console.log("Email", email);
         console.log("password", password);
     }
